@@ -1,0 +1,12 @@
+body {
+	background-image: url("../images/fondo-foodmap.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	text-align: center;
+}
+
+body h1, i {
+	margin-top: 14rem;
+	color: #FFFFFF;
+}
