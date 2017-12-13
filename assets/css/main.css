@@ -71,6 +71,17 @@ body .img-food {
 #sectn-food #row-food-2 #img-vegetarian span{
 	left: 8rem;
 }
+.sectn-imgs span {
+	color: #76F462;
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 3rem;
+	background-color: #8D0C17;
+	position: absolute;
+	top: 2rem;
+	left: 12rem;
+	z-index: 10;
+}
+
 
 @media (min-width: 200px) and (max-width: 425px) { 
 	#sectn-food span{
