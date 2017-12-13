@@ -71,3 +71,18 @@ body .img-food {
 #sectn-food #row-food-2 #img-vegetarian span{
 	left: 8rem;
 }
+
+@media (min-width: 200px) and (max-width: 425px) { 
+	#sectn-food span{
+	font-size: 2rem;
+	top: 2rem;
+	left: 0.5rem;
+}
+#sectn-food #row-food-2 span{
+	left: 0.25rem;
+}
+#sectn-food #row-food-2 #img-vegetarian span{
+	left: 0rem;
+}
+	
+}
