@@ -81,7 +81,48 @@ body .img-food {
 	left: 12rem;
 	z-index: 10;
 }
-
+#sectn-chinese span {
+	left: 15rem;
+}
+#sectn-chinese #img-chinese-3 span {
+	left: 13rem;
+}
+#sectn-indian span {
+	left: 15rem;
+}
+#sectn-indian #img-indian-2 span {
+	left: 13rem;
+}
+#sectn-indian #img-indian-3 span {
+	left: 16rem;
+}
+#sectn-italian span {
+	left: 14rem;
+}
+#sectn-italian #img-italian-2 span {
+	left: 17rem;
+}
+#sectn-mexican span {
+	left: 11rem;
+}
+#sectn-mexican #img-mexican-3 span {
+	left: 14rem;
+}	
+#sectn-japanese span {
+	left: 11rem;
+}
+#sectn-japanese #img-japanese-1 span {
+	left: 14rem;
+}
+#sectn-japanese #img-japanese-2 span {
+	left: 12rem;
+}	
+#sectn-vegetarian span {
+	left: 15rem;
+}
+#sectn-vegetarian #img-vegetarian-3 span {
+	left: 13rem;
+}
 
 @media (min-width: 200px) and (max-width: 425px) { 
 	#sectn-food span{
@@ -94,6 +135,53 @@ body .img-food {
 }
 #sectn-food #row-food-2 #img-vegetarian span{
 	left: 0rem;
+}
+.sectn-imgs span {
+	font-size: 2rem;
+	top: 2rem;
+	left: 0;
+}
+#sectn-chinese span {
+	left: 2.5rem;
+}
+#sectn-chinese #img-chinese-3 span {
+	left: 1rem;
+}
+#sectn-indian span {
+	left: 2rem;
+}
+#sectn-indian #img-indian-2 span {
+	left: 0.5rem;
+}
+#sectn-indian #img-indian-3 span {
+	left: 3rem;
+}
+#sectn-italian span {
+	left: 1.6rem;
+}
+#sectn-italian #img-italian-2 span {
+	left: 3rem;
+}
+#sectn-mexican span {
+	left: 1.25rem;
+}
+#sectn-mexican #img-mexican-3 span {
+	left: 1.75rem;
+}	
+#sectn-japanese span {
+	left: 1rem;
+}
+#sectn-japanese #img-japanese-1 span {
+	left: 1.75rem;
+}
+#sectn-japanese #img-japanese-2 span {
+	left: 0.5rem;
+}	
+#sectn-vegetarian span {
+	left: 2rem;
+}
+#sectn-vegetarian #img-vegetarian-3 span {
+	left: 0.75rem;
 }
 	
 }
