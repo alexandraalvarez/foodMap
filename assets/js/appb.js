@@ -1,8 +1,9 @@
-function validateFood () {
+function validateFood() {
 	var validFood = ["china","hindú", "italiana", "mexicana", "japonesa", "vegetariana"];
 	var onlyLetters = /^[A-Za-z\_\-\.\s\xF1\xD1]+$/;
-		
-	$("input").click(function(){
+		console.log("hola");*/
+
+	$("#button-search").on("click", function(){
         alert("The addon was clicked.");
     });	
 	
@@ -32,7 +33,9 @@ function validateFood () {
 			} else if (inputSearch == validFood[5]){
 				$("#sectn-vegetarian").show();
 			} 
-		};*/
+		};
 
-};
+};*/
+
+
 

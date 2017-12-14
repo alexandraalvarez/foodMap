@@ -145,7 +145,7 @@ $(document).ready(function(){
 	var validFood = ["china","hindú", "italiana", "mexicana", "japonesa", "vegetariana"];
 	var onlyLetters = /^[A-Za-z\_\-\.\s\xF1\xD1]+$/;
 		
-	$("#button-search").click(function(){
+	$("#button-search").on("click",function(){
 		var inputSearch = $("#input-search").val();
 		if (inputSearch.length === 0) {
 			$(".input-group").append("<span class='alert'>Debe ingresar un tipo de comida</span>");
