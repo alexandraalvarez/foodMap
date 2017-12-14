@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$(".sectn-food").hide(); //para esconder las secciones de las comidas
+	//$(".sectn-food").hide(); //para esconder las secciones de las comidas
 	$(function(){ //efecto splash
    setTimeout(function() {
       $('#sectn-splash').fadeOut(500);
