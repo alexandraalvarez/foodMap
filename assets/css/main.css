@@ -55,7 +55,7 @@ body .img-food {
 	width: 24.4375rem;
 	padding-bottom: 3rem;
 }
-#sectn-food span{
+#sectn-type-food span{
 	color: #76F462;
 	font-family: 'Berkshire Swash', cursive;
 	font-size: 3rem;
@@ -65,10 +65,10 @@ body .img-food {
 	left: 12rem;
 	z-index: 10;
 }
-#sectn-food #row-food-2 span{
+#sectn-type-food #row-food-2 span{
 	left: 10rem;
 }
-#sectn-food #row-food-2 #img-vegetarian span{
+#sectn-type-food #row-food-2 #img-vegetarian span{
 	left: 8rem;
 }
 .sectn-imgs span {
@@ -125,15 +125,15 @@ body .img-food {
 }
 
 @media (min-width: 200px) and (max-width: 425px) { 
-	#sectn-food span{
+	#sectn-type-food span{
 	font-size: 2rem;
 	top: 2rem;
 	left: 0.5rem;
 }
-#sectn-food #row-food-2 span{
+#sectn-type-food #row-food-2 span{
 	left: 0.25rem;
 }
-#sectn-food #row-food-2 #img-vegetarian span{
+#sectn-type-food #row-food-2 #img-vegetarian span{
 	left: 0rem;
 }
 .sectn-imgs span {
