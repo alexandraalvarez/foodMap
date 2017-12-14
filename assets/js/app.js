@@ -125,7 +125,7 @@ $(document).ready(function(){
 	//final del hover section japanese
 
 	$("#img-vegetarian-1").hover(function(){ //hover para secction vegetarian
-		$("#img-vegetarian-1").append("<span class='food-span'>Ruca Bar</span>");
+		$("#img-vegetarian-1").append("<span class='food-span'>El árbol</span>");
 		}, function(){
 			$(".food-span").remove();
 		});

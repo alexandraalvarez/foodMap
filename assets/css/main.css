@@ -123,12 +123,28 @@ body .img-food {
 #sectn-vegetarian #img-vegetarian-3 span {
 	left: 13rem;
 }
-
+body .modal-content {
+	background-color: #8D0C17;
+	color: #76F462;
+	font-family: 'Berkshire Swash', cursive;
+	padding-bottom: 2rem;
+}
+body .modal-content p {
+	color: #FFFFFF;
+	font-family: 'Open Sans', sans-serif;
+}
+body .modal-content h5 {
+	font-family: 'Open Sans', sans-serif;
+}
+body .modal-content .btn {
+	background-color: #76F462;
+	color: #8D0C17;
+}
 @media (min-width: 200px) and (max-width: 425px) { 
 	#sectn-type-food span{
 	font-size: 2rem;
 	top: 2rem;
-	left: 0.5rem;
+	left: 0.75rem;
 }
 #sectn-type-food #row-food-2 span{
 	left: 0.25rem;
