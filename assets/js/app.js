@@ -1,4 +1,5 @@
 $(document).ready(function(){
+	$(".sectn-food").hide(); //para esconder las secciones de las comidas
 	$(function(){ //efecto splash
    setTimeout(function() {
       $('#sectn-splash').fadeOut(500);
@@ -140,6 +141,7 @@ $(document).ready(function(){
 		});
 	//final del hover section vegetarian
 
+    
 
 });//final del ready function
 
@@ -154,4 +156,4 @@ $(document).ready(function(){
 
 
 
-//$('.elemento').toggle(); //para hacer aparecer y desaparecer las secciones con el filtro
+
